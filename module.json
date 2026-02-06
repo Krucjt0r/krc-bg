@@ -1,0 +1,168 @@
+{
+  "id": "krc-bg",
+  "title": "Krucjator Baldurs Gate",
+  "description": "n/a",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Krucjator"
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/krc-bg/assets/cover.png",
+      "thumbnail": "modules/krc-bg/assets/cover-thumbnail.png"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "bg-actors",
+      "path": "./packs/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "adventure",
+      "label": "Krucjator Baldurs Gate",
+      "path": "./packs/adventure",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "cards",
+      "label": "Krucjator Baldurs Gate",
+      "path": "./packs/cards",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "bg-items",
+      "path": "./packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "journals",
+      "label": "Krucjator Baldurs Gate",
+      "path": "./packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Krucjator Baldurs Gate",
+      "path": "./packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "maps",
+      "label": "bg-scenes",
+      "path": "./packs/maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "playlists",
+      "label": "Krucjator Baldurs Gate",
+      "path": "./packs/playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rolltables",
+      "label": "Krucjator Baldurs Gate",
+      "path": "./packs/rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Starter Scene Packer",
+      "sorting": "m",
+      "color": "#0000ff",
+      "packs": [
+        "actors",
+        "cards",
+        "items",
+        "journals",
+        "macros",
+        "maps",
+        "playlists",
+        "rolltables"
+      ],
+      "folders": [
+        {
+          "name": "Adventure",
+          "sorting": "a",
+          "color": "#ff0000",
+          "packs": [
+            "adventure"
+          ]
+        }
+      ]
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "",
+  "manifest": "",
+  "download": ""
+}

@@ -1,0 +1,16 @@
+2026/02/05-13:38:06.117 684c Recovering log #3437
+2026/02/05-13:38:06.122 684c Delete type=0 #3437
+2026/02/05-13:38:06.122 684c Delete type=3 #3435
+2026/02/05-15:07:38.071 34c4 Level-0 table #3442: started
+2026/02/05-15:07:38.080 34c4 Level-0 table #3442: 878945 bytes OK
+2026/02/05-15:07:38.080 34c4 Delete type=0 #3440
+2026/02/05-15:07:38.085 34c4 Manual compaction at level-0 from '!scenes!00dySYOZxJ8eI7qf' @ 72057594037927935 : 1 .. '!scenes.walls!zpXSIPcjTXqP9Jjv.yg2gAfjnGNR1MU3b' @ 0 : 0; will stop at (end)
+2026/02/05-15:07:38.088 34c4 Manual compaction at level-1 from '!scenes!00dySYOZxJ8eI7qf' @ 72057594037927935 : 1 .. '!scenes.walls!zpXSIPcjTXqP9Jjv.yg2gAfjnGNR1MU3b' @ 0 : 0; will stop at '!scenes.tokens.delta.effects!ZxZTwcAE6XK2HQOm.m8TBTiUQxJJKdWbb.58GUR0WFJXVL1Y1c.Y4aMZdVyRBlXEXM9' @ 372846 : 1
+2026/02/05-15:07:38.088 34c4 Compacting 1@1 + 1@2 files
+2026/02/05-15:07:38.115 34c4 Generated table #3443@1: 3224 keys, 2133126 bytes
+2026/02/05-15:07:38.120 34c4 Generated table #3444@1: 73 keys, 31895 bytes
+2026/02/05-15:07:38.120 34c4 Compacted 1@1 + 1@2 files => 2165021 bytes
+2026/02/05-15:07:38.120 34c4 compacted to: files[ 0 0 6 0 0 0 0 ]
+2026/02/05-15:07:38.120 34c4 Delete type=2 #3430
+2026/02/05-15:07:38.120 34c4 Delete type=2 #3442
+2026/02/05-15:07:38.125 34c4 Manual compaction at level-1 from '!scenes.tokens.delta.effects!ZxZTwcAE6XK2HQOm.m8TBTiUQxJJKdWbb.58GUR0WFJXVL1Y1c.Y4aMZdVyRBlXEXM9' @ 372846 : 1 .. '!scenes.walls!zpXSIPcjTXqP9Jjv.yg2gAfjnGNR1MU3b' @ 0 : 0; will stop at (end)

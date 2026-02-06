@@ -1,0 +1,25 @@
+2026/02/06-12:44:36.371 c8c Recovering log #41
+2026/02/06-12:44:36.376 c8c Delete type=0 #41
+2026/02/06-12:44:36.376 c8c Delete type=3 #39
+2026/02/06-14:15:13.495 5a88 Level-0 table #46: started
+2026/02/06-14:15:13.517 5a88 Level-0 table #46: 1463496 bytes OK
+2026/02/06-14:15:13.519 5a88 Delete type=0 #44
+2026/02/06-14:49:33.868 5a88 Level-0 table #48: started
+2026/02/06-14:49:33.881 5a88 Level-0 table #48: 803325 bytes OK
+2026/02/06-14:49:33.883 5a88 Delete type=0 #45
+2026/02/06-14:49:33.890 5a88 Manual compaction at level-0 from '!folders!OB9RuSV0biUTHyZp' @ 72057594037927935 : 1 .. '!scenes.walls!vYityAXjkV6Vx2Il.zSUtroNkjgzsZWd7' @ 0 : 0; will stop at '!scenes.walls!vYityAXjkV6Vx2Il.zSUtroNkjgzsZWd7' @ 32080 : 0
+2026/02/06-14:49:33.890 5a88 Compacting 1@0 + 1@1 files
+2026/02/06-14:49:33.905 5a88 Generated table #49@0: 2673 keys, 763197 bytes
+2026/02/06-14:49:33.905 5a88 Compacted 1@0 + 1@1 files => 763197 bytes
+2026/02/06-14:49:33.906 5a88 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/06-14:49:33.906 5a88 Delete type=2 #46
+2026/02/06-14:49:33.907 5a88 Delete type=2 #48
+2026/02/06-14:49:33.907 5a88 Manual compaction at level-0 from '!scenes.walls!vYityAXjkV6Vx2Il.zSUtroNkjgzsZWd7' @ 32080 : 0 .. '!scenes.walls!vYityAXjkV6Vx2Il.zSUtroNkjgzsZWd7' @ 0 : 0; will stop at (end)
+2026/02/06-14:49:33.907 5a88 Manual compaction at level-1 from '!folders!OB9RuSV0biUTHyZp' @ 72057594037927935 : 1 .. '!scenes.walls!vYityAXjkV6Vx2Il.zSUtroNkjgzsZWd7' @ 0 : 0; will stop at '!scenes.walls!vYityAXjkV6Vx2Il.zSUtroNkjgzsZWd7' @ 32218 : 1
+2026/02/06-14:49:33.907 5a88 Compacting 1@1 + 1@2 files
+2026/02/06-14:49:33.942 5a88 Generated table #50@1: 3905 keys, 2002063 bytes
+2026/02/06-14:49:33.942 5a88 Compacted 1@1 + 1@2 files => 2002063 bytes
+2026/02/06-14:49:33.943 5a88 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/06-14:49:33.943 5a88 Delete type=2 #26
+2026/02/06-14:49:33.943 5a88 Delete type=2 #49
+2026/02/06-14:49:33.950 5a88 Manual compaction at level-1 from '!scenes.walls!vYityAXjkV6Vx2Il.zSUtroNkjgzsZWd7' @ 32218 : 1 .. '!scenes.walls!vYityAXjkV6Vx2Il.zSUtroNkjgzsZWd7' @ 0 : 0; will stop at (end)

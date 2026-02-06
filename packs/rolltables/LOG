@@ -1,0 +1,7 @@
+2026/02/06-12:44:36.405 c8c Recovering log #36
+2026/02/06-12:44:36.409 c8c Delete type=0 #36
+2026/02/06-12:44:36.409 c8c Delete type=3 #34
+2026/02/06-14:49:33.702 5a88 Level-0 table #41: started
+2026/02/06-14:49:33.707 5a88 Level-0 table #41: 8418 bytes OK
+2026/02/06-14:49:33.709 5a88 Delete type=0 #39
+2026/02/06-14:49:33.710 5a88 Manual compaction at level-0 from '!tables!1zapOXCFvkuCiX3x' @ 72057594037927935 : 1 .. '!tables.results!kaiuAbnFm3F1Y4Dk.vSYgfH2uMieQwSmS' @ 0 : 0; will stop at (end)
